@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Advanced Product Comparison</title>
+  <title>Compare Products</title>
   <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
@@ -10,21 +10,9 @@
 
 <div id="insights"></div>
 
-<div id="feature-toggle"></div>
-
-<div class="weights">
-  Price <input type="number" id="wPrice" value="3">
-  Rating <input type="number" id="wRating" value="2">
-  Battery <input type="number" id="wBattery" value="1">
-  <button onclick="render()">Apply</button>
-</div>
-
 <table id="compare-table"></table>
 
-<div class="actions">
-  <button onclick="clearCompare()">Clear</button>
-  <button onclick="window.print()">Export</button>
-</div>
+<button onclick="clearCompare()">Clear</button>
 
 <script src="js/data.js"></script>
 <script src="js/compare.js"></script>
